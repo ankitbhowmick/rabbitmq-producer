@@ -1,0 +1,49 @@
+{
+  "properties": [
+    {
+      "name": "image.exchange.name",
+      "type": "java.lang.String",
+      "description": "Description for image.exchange.name."
+    },
+    {
+      "name": "image.exchange.type",
+      "type": "java.lang.String",
+      "description": "Description for image.exchange.type."
+    },
+    {
+      "name": "image.queue.png.name",
+      "type": "java.lang.String",
+      "description": "Description for image.queue.png.name."
+    },
+    {
+      "name": "image.queue.png.bindingKey",
+      "type": "java.lang.String",
+      "description": "Description for image.queue.png.bindingKey."
+    },
+    {
+      "name": "image.queue.jpg.name",
+      "type": "java.lang.String",
+      "description": "Description for image.queue.jpg.name."
+    },
+    {
+      "name": "department.exchange.name",
+      "type": "java.lang.String",
+      "description": "Description for department.exchange.name."
+    },
+    {
+      "name": "department.exchange.type",
+      "type": "java.lang.String",
+      "description": "Description for department.exchange.type."
+    },
+    {
+      "name": "department.queue.hr.name",
+      "type": "java.lang.String",
+      "description": "Description for department.queue.hr.name."
+    },
+    {
+      "name": "department.queue.marketing.name",
+      "type": "java.lang.String",
+      "description": "Description for department.queue.marketing.name."
+    }
+  ]
+}

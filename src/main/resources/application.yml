@@ -1,0 +1,21 @@
+image:
+  exchange:
+    name: imageExchange
+    type: Direct
+  queue:
+    png:
+      name: pngQueue
+      bindingKey: pngBindingKey
+    jpg:
+      name: jpgQueue
+      bindingKey: pngBindingKey
+
+department:
+  exchange:
+    name: departmentExchange
+    type: Fanout
+  queue:
+    hr:
+      name: hrQueue
+    marketing:
+      name: marketingQueue
