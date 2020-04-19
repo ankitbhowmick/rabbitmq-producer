@@ -12,8 +12,10 @@ import org.springframework.util.Assert;
 
 import java.util.Objects;
 
+import static com.anky.rabbitmqproducer.utility.RabbitMQUtility.*;
+
 @Configuration
-public class DepartmentConfig extends RabbitMQConfig {
+public class DepartmentConfig {
 
     private final Environment environment;
 

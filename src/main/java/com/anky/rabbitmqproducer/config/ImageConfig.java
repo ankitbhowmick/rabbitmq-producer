@@ -11,9 +11,11 @@ import org.springframework.core.env.Environment;
 
 import java.util.Objects;
 
+import static com.anky.rabbitmqproducer.utility.RabbitMQUtility.*;
+
 @Configuration
 @Log4j2
-public class ImageConfig extends RabbitMQConfig {
+public class ImageConfig {
 
     private final Environment environment;
 
